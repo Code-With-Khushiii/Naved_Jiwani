@@ -246,9 +246,11 @@ function App() {
         <div className="max-w-6xl mx-auto px-6">
           <div className={`text-center transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="mb-12">
-              <div className="w-36 h-36 rounded-full mx-auto mb-6 flex items-center justify-center bg-black border-4 border-brown/30 shadow-lg">
-                <span className="text-4xl font-display text-white tracking-wide">NJ</span>
-              </div>
+              <img
+                src="images/image.png"
+                alt="Naved Jiwani"
+                className="w-36 h-36 rounded-full mx-auto mb-6 object-cover border-4 border-brown/30 shadow-lg"
+              />
             </div>
             <h1 className="text-5xl md:text-6xl font-display text-black mb-6 tracking-wide">
               NAVED JIWANI
