@@ -57,7 +57,7 @@ function App() {
     }
   };
 
-  const summary = "Business Intelligence Engineer with 6+ years of experience building scalable Power BI, Microsoft Fabric, SQL, and cloud data solutions across healthcare, financial services, and staffing. Engineered ETL/ELT pipelines processing 500K+ records daily and optimized analytics across 1M+ records using Python, PySpark, dimensional modeling, AWS, and Azure. Delivered enterprise BI solutions that reduced manual reporting by 60% while strengthening data accessibility, governance, and business insight.";
+  const summary = "Business Intelligence Engineer and Data Engineer with 6+ years of experience building scalable Power BI, Microsoft Fabric, SQL, and cloud data solutions across healthcare, financial services, and staffing. Engineered ETL/ELT pipelines processing 500K+ records daily and optimized analytics across 1M+ records using Python, PySpark, dimensional modeling, AWS, and Azure. Delivered enterprise BI solutions that reduced manual reporting by 60% while strengthening data accessibility, governance, and business insight.";
 
   const experience = [
     {
@@ -171,6 +171,11 @@ function App() {
       title: "AWS Certified Cloud Practitioner",
       platform: "Certification",
       description: "Foundational certification covering AWS Cloud concepts, services, security, and billing practices."
+    },
+    {
+      title: "GenAI-Powered Data Analytics Job Simulation",
+      platform: "Tata | Forage",
+      description: "Completed a job simulation applying generative AI to data analytics workflows, including data exploration and AI-assisted insight generation."
     }
   ];
 
@@ -190,7 +195,7 @@ function App() {
                 { id: 'experience', label: 'Experience' },
                 { id: 'skills', label: 'Skills' },
                 { id: 'education', label: 'Education' },
-                { id: 'certifications', label: 'Certificate' },
+                { id: 'certifications', label: 'Certifications' },
                 { id: 'contact', label: 'Contact' }
               ].map((item) => (
                 <button
@@ -223,7 +228,7 @@ function App() {
                 { id: 'experience', label: 'Experience' },
                 { id: 'skills', label: 'Skills' },
                 { id: 'education', label: 'Education' },
-                { id: 'certifications', label: 'Certificate' },
+                { id: 'certifications', label: 'Certifications' },
                 { id: 'contact', label: 'Contact' }
               ].map((item) => (
                 <button
@@ -256,7 +261,7 @@ function App() {
               NAVED JIWANI
             </h1>
             <div className="text-lg text-brown mb-2 font-light tracking-widest">
-              Business Intelligence Engineer | Power BI - Microsoft Fabric - SQL - Data Engineering
+              Business Intelligence Engineer | Data Engineer | Power BI - Microsoft Fabric - SQL - AWS - Azure
             </div>
             <div className="text-sm uppercase tracking-[0.3em] text-brown/80 mb-1">
               DALLAS, TX, USA
